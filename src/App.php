@@ -15,7 +15,7 @@ class App
         $Smarter->display(
             'ServerStats\index.tpl',
             [
-                'system_info' => ezcSystemInfo::getInstance()
+                'system_info' => \ezcSystemInfo::getInstance()
             ]
         );
     }
