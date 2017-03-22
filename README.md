@@ -3,6 +3,10 @@
 A server statistics package based around system information.
 
 Current information this provides:
+- OS Information
+  - Name
+  - Kernel
+  - Architecture
 - CPU Information
   - Model
   - Vendor
