@@ -63,5 +63,4 @@
             {/foreach}
         </div>
     </div>
-    {$hdd|print_r}
 </div>
