@@ -39,6 +39,29 @@
                     <strong>{$ram['free']|file_size}</strong>
                 </li>
             </ul>
+
+            <h2>HDD Information</h2>
+            {foreach $hdd as $hd}
+                <ul class="list-inline">
+                    <li class="list-group-item">
+                        <h4>Name</h4>
+                        <strong>{$hd['name']}</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>Vendor</h4>
+                        <strong>{$hd['vendor']}</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>Size</h4>
+                        <strong>{$hd['size']|file_size}</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>Device Path</h4>
+                        <strong>{$hd['device']}</strong>
+                    </li>
+                </ul>
+            {/foreach}
         </div>
     </div>
+    {$hdd|print_r}
 </div>
