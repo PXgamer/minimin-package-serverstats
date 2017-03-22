@@ -12,10 +12,16 @@ class App
         // ... Run plugin commands
         $Smarter = Smarter::get();
         $Smarter->addTemplateDir(__DIR__ . '/Templates/');
+
+        $linfo = new \Linfo\Linfo;
+        $parser = $linfo->getParser();
+
         $Smarter->display(
             'ServerStats\index.tpl',
             [
-                'system_info' => \ezcSystemInfo::getInstance()
+                'cpu' => $parser->getCpu()[0],
+                'ram' => $parser->getRam(),
+                'hdd' => $parser->getHD()
             ]
         );
     }
