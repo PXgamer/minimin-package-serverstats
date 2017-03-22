@@ -21,7 +21,10 @@ class App
             [
                 'cpu' => $parser->getCpu()[0],
                 'ram' => $parser->getRam(),
-                'hdd' => $parser->getHD()
+                'hdd' => $parser->getHD(),
+                'os' => $parser->getOS(),
+                'kernel' => $parser->getKernel(),
+                'architecture' => $parser->getCPUArchitecture()
             ]
         );
     }

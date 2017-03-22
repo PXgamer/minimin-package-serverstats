@@ -8,12 +8,28 @@
     <hr/>
     <div class="panel panel-default">
         <div class="panel-body">
+            </li>
+            <h2>OS Information</h2>
+            <ul class="list-inline">
+                <li class="list-group-item">
+                    <h4>Name</h4>
+                    <strong>{$os}</strong>
+                </li>
+                <li class="list-group-item">
+                    <h4>Kernel</h4>
+                    <strong>{$kernel}</strong>
+                </li>
+                <li class="list-group-item">
+                    <h4>Architecture</h4>
+                    <strong>{$architecture}</strong>
+                </li>
+            </ul>
+
             <h2>CPU Information</h2>
             <ul class="list-inline">
                 <li class="list-group-item">
                     <h4>Model</h4>
                     <strong>{$cpu['Model']}</strong>
-                </li>
                 <li class="list-group-item">
                     <h4>Vendor</h4>
                     <strong>{$cpu['Vendor']}</strong>
