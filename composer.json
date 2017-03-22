@@ -1,0 +1,24 @@
+{
+    "name": "pxgamer/minimin-package-serverstats",
+	"description": "A server statistics package based around system information.",
+    "type": "library",
+    "license": "MIT",
+	"minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "PXgamer",
+            "email": "owzie123@gmail.com"
+        }
+    ],
+	"require": {
+	    "zetacomponents/system-information": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "MiniminPackage\\ServerStats\\": "src/"
+        }
+    },
+    "keywords": [
+        "minimin-package"
+    ]
+}
