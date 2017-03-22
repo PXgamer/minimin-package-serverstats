@@ -24,7 +24,11 @@ class App
                 'hdd' => $parser->getHD(),
                 'os' => $parser->getOS(),
                 'kernel' => $parser->getKernel(),
-                'architecture' => $parser->getCPUArchitecture()
+                'architecture' => $parser->getCPUArchitecture(),
+                'web' => $parser->getWebService(),
+                'php' => $parser->getPhpVersion(),
+                'devices' => $parser->getDevs(),
+                'network' => $parser->getNet()
             ]
         );
     }
