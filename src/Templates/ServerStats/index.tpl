@@ -1,6 +1,6 @@
 <div class="container">
     <h1>
-        System
+        Server Stats
         <span class="small">
             <span class="fa fa-fw fa-tasks"></span>
         </span>
