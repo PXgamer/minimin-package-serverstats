@@ -31,11 +31,11 @@
                     <strong>{$ram['type']}</strong>
                 </li>
                 <li class="list-group-item">
-                    <h4>Model</h4>
+                    <h4>Total</h4>
                     <strong>{$ram['total']|file_size}</strong>
                 </li>
                 <li class="list-group-item">
-                    <h4>Vendor</h4>
+                    <h4>Free</h4>
                     <strong>{$ram['free']|file_size}</strong>
                 </li>
             </ul>
