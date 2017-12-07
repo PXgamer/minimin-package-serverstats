@@ -4,19 +4,22 @@ All notable changes to `minimin-package-serverstats` will be documented in this 
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## NEXT - YYYY-MM-DD
+## v1.0.2 - 2017-03-22
 
 ### Added
-- Nothing
+- Added web server information
+- Added php information
+- Added device information
+- Added network information
 
-### Deprecated
-- Nothing
+## v1.0.1 - 2017-03-22
 
-### Fixed
-- Nothing
+### Added
+- Added kernel information
+- Added OS information
+- Added arch information
 
-### Removed
-- Nothing
+## v1.0.0 - 2017-03-22
 
-### Security
-- Nothing
+### Added
+- Initial release
